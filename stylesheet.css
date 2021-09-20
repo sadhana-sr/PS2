@@ -1,0 +1,41 @@
+body {
+    background-color: lightsalmon;
+    animation-name: gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gradient {
+    0%   {background-color: lightsalmon;}
+    25%  {background-color: lightpink;}
+    50%  {background-color: lightcoral;}
+    100% {background-color: lightsalmon;}
+  }
+
+.selected{
+    background-color: lightgoldenrodyellow;
+    font-weight: bolder;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+}
+
+nav {
+    font-family: 'Courier New', monospace;
+    font-weight: lighter;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    border: 3px outset lightgoldenrodyellow;
+}
